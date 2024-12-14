@@ -1,3 +1,4 @@
+#This script is based on password reset token and hidden endpoint.
 import requests
 import string
 
