@@ -73,7 +73,7 @@ def valid_token():
             # if ""
             if "Account locked" in r.text:
                 token += c 
-                print(f"[+] Found Character {c} -> Current -> {token}")
+                print(f"[+] Found Token : {c} -> Current -> {token}")
                 Found_charac = True
                 break
         if not Found_charac:
